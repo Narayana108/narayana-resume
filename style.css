@@ -1,0 +1,184 @@
+body { margin: 0;
+       padding: 0;
+       background-color: #fff font-size: 12px;
+       font-family: 'Source Sans Pro', sans-serif;
+       -webkit-font-smoothing: subpixel-antialiased;
+}
+* { box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+/*
+ Primary Rules
+*/
+h1 { font-weight: normal;
+     margin: 5px 0 0;
+     font-size: 60px;
+     color:#B46ECC;
+     padding: 0 10px 10px;
+     border-radius:2px;
+    /*font-family: 'Merriweather', serif;*/
+    font-family: 'VT323', monospace;
+}
+h2 { color: #B46ECC;
+     /*width: 150px;*/
+     font-size: 28px;
+     padding-left: 20px;
+     padding-top: 2px;
+     /*font-weight:700;*/
+     /*font-family: 'Merriweather', serif;*/
+    font-family: 'VT323', monospace;
+
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid #B46ECC; 
+   line-height: 0.1em;
+   margin: 10px 0 20px;
+
+}
+h2 span { 
+    background:#fff; 
+    padding:0 50px; 
+} 
+
+h3 { color: #B46ECC;
+     font-size: 18px;
+     font-weight: bold;
+     margin-bottom: 0;
+     line-height: 28px;
+     font-family: 'Merriweather', serif;
+}
+h2, h3 { margin-top: 5px }
+a { color: #B46ECC;
+    display: inline-block;
+    text-decoration: none;
+    padding:2px 4px;
+    border-radius:2px;
+    margin-right:-2px;
+}
+a:hover {
+  background-color:#B46ECC;
+  color:#fff;
+}
+.key:first-child { margin-left: 0 }
+.key { margin: 0 10px;
+       position: relative;
+}
+.key::before { content: '◆';
+               position: absolute;
+               left: -15px;
+               color: #B46ECC;
+               font-size: 7pt;
+}
+.key:first-child::before { content: '' }
+.section { padding: 10px 0 15px;
+}
+.section:last-child { border: none }
+.section-text { width: 100%;
+                font-size: 16px;
+                line-height: 24px;
+                margin: 10px 0 10px;
+                padding: 15px 10px;
+}
+.subsection { margin: 10px 0 5px }
+.desc { font-size: 16px; font-family: 'Source Sans Pro', sans-serif; color:#444;}
+.contact-info { font-size: 16px;
+                text-align: right;
+}
+.light { color: #aaa;letter-spacing:1px;
+         font-size: 14px;
+         line-height:28px;
+         font-family: 'Source Sans Pro', sans-serif;
+         text-transform:uppercase;
+}
+ul{
+  padding-left:15px;
+}
+
+ul.skills{
+  float:left;
+  width:30%;
+  padding-left:0px;
+  margin: 0 20px 0 0;
+}
+
+ul.skills li{
+  list-style: none;
+  font-size:16px;
+  margin-bottom:10px;
+}
+
+ul.skills li:last-child{
+  margin:0;
+}
+
+/*
+ Float Rules
+*/
+.row:before, .row:after { content: "";
+                          display: table;
+}
+.row:after { clear: both }
+.col { float: left }
+.col-right { float: right }
+
+/*
+ Page Rules
+*/
+.page { width: 1000px;
+        min-height: 29.7cm;
+        margin: 1cm auto;
+
+        background: white;
+        padding: 20px 50px;
+}
+.subpage { padding: 1cm;
+           border: 1px red solid;
+           height: 297mm;
+}
+
+.cryptedmail:after {
+  content: attr(data-name) "@" attr(data-domain) "." attr(data-tld); 
+}
+
+img {
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 4px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  width: 200px; /* Set a small width */
+}
+
+.bio {
+     font-weight: bold;
+     padding: 5px;
+     color:#B46ECC;
+}
+.profile{
+     font-size:12px;
+}
+.pad-top{
+    padding-top: 10px;
+}
+
+.w3-container,.w3-panel{
+  padding:0.01em 16px;
+  width: 20%;
+}
+.w3-blue,.w3-hover-blue:hover{
+  color:#fff!important;
+  background-color:#2196F3!important
+}
+.w3-green,.w3-hover-green:hover{
+  color:#000000!important;
+  background-color:#88F28F!important
+}
+
+.w3-purple,.w3-hover-purple:hover{
+  color:#000000!important;
+  background-color:#CD88F2!important
+}
+
+.w3-panel{margin-top:16px;margin-bottom:16px}
+.w3-light-grey,.w3-hover-light-grey:hover,.w3-light-gray,.w3-hover-light-gray:hover{color:#000!important;background-color:#f1f1f1!important}
+.w3-round-small{border-radius:2px}.w3-round,.w3-round-medium{border-radius:4px}.w3-round-large{border-radius:8px}.w3-round-xlarge{border-radius:16px}.w3-round-xxlarge{border-radius:32px}
+
