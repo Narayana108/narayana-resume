@@ -185,6 +185,11 @@ img {
 footer {
   display:flex;
   height: 50px;
-  justify-content:center;
-  align-items:center;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+ display: flex;
+ justify-content: center;
 }
