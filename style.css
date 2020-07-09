@@ -193,3 +193,8 @@ footer {
  display: flex;
  justify-content: center;
 }
+
+.title {
+ font-weight: bold;
+ color: #9A9A9A;
+}
